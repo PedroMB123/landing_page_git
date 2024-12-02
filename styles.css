@@ -148,6 +148,28 @@ main .s3 img {
   margin-bottom: 100px;
 }
 
+.footer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer nav ul {
+  flex-direction: column;
+}
+
+footer nav ul li a {
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
 @media only screen and (max-width: 800px) {
   main .s1 {
     height: 100vh;
