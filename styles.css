@@ -52,36 +52,29 @@
 main .s1 {
   height: 100vh;
   background-image: url(/images/diego-rezende-2j-GgtLlPcQ-unsplash.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   flex-direction: column;
+
+  padding: 0px 300px 0px 250px;
+  margin-top: -50px;
 }
 
-main .sobre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-
-  /* height: 50%; */
-  width: 60%;
-
-  margin-left: 280px;
-  margin-bottom: 150px;
+main .s1 p {
+  font-size: 30px;
 }
 
 .botao {
-  display: flex;
-
+  width: 150px;
+  padding: 5px;
+  font-size: 22px;
+  text-align: center;
   color: white;
-
-  font-size: 150%;
-
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -93,36 +86,47 @@ main .s1 h1 {
   font-size: 100px;
 }
 
-main .s1 a {
-  font-size: 40px;
-}
-
 main .s2 {
+  width: 100%;
+  height: 750px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-main .s2 img {
-  margin-top: 150px;
-  /* margin-bottom: 150px; */
-  height: 50%;
-  border-radius: 10px;
+main .s2 .img {
+  width: 250vh;
+  height: 100vh;
+
+  padding: 40px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .s2 .testingImg {
+  width: 100%;
+  height: 100%;
+  background: url("./images/CasasLuxuosas_43.jpg") center no-repeat fixed;
 }
 
 main .s2 .texto {
-  margin-top: 270px;
-  margin-left: 200px;
-  margin-right: 50px;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 main .s2 .texto h1 {
   font-size: 100px;
 }
 
-main .s2 .texto a {
-  font-size: 17px;
-  font-style: Brush Script MT;
-  font-weight: Brush Script Std;
+main .s2 .texto p {
+  font-weight: 200;
   font-family: cursive;
 }
 
@@ -231,8 +235,8 @@ footer nav ul li a {
     justify-content: center;
     align-items: center;
 
-    height: 100vh;
-    width: 100vh;
+    /* height: 100vh;
+    width: 100vh; */
   }
 
   main .s3 img {
@@ -241,5 +245,8 @@ footer nav ul li a {
 
     margin-bottom: 100px;
     margin-left: 600px;
+  }
+  .footer {
+    width: 190vh;
   }
 }
