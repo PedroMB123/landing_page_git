@@ -91,7 +91,6 @@ main .s2 {
   height: 750px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
 }
 
 main .s2 .img {
@@ -103,6 +102,8 @@ main .s2 .img {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  justify-content: space-between;
 }
 
 main .s2 .testingImg {
@@ -174,25 +175,12 @@ footer nav ul li a {
   color: #fff;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 50px) {
   main .s1 {
     height: 100vh;
     width: 200vh;
-    background-image: url(/images/diego-rezende-2j-GgtLlPcQ-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
   }
   main .s2 {
-    display: flex;
-    justify-content: space-between;
-
-    flex-direction: column;
-
     width: 300vh;
     height: 300vh;
   }
@@ -214,9 +202,6 @@ footer nav ul li a {
 
   main .s2 .texto a {
     font-size: 50px;
-    font-style: Brush Script MT;
-    font-weight: Brush Script Std;
-    font-family: cursive;
   }
 
   main .texto_s3 {
